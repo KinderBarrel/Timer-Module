@@ -1,6 +1,7 @@
 Timer Module for complex timing needs.
 
 --[[ USER GUIDE:
+
 	>Making A Timer ->
 		local TimerModule = require(path.to.script)
 		local Timer = TimerModule.new(goal, rate, increment, start)
@@ -11,7 +12,7 @@ Timer Module for complex timing needs.
 		-> TimerModule.new(10, 1, 1, 0):Play() -> finishes in 10 seconds, counts 1 every second from 0
 		-> TimerModule.new(-50, .5, -1, 0):Play() -> finishes in 25 seconds, counts -1 every .5 seconds from 0
 		-> TimerModule.new(1, 1, 0, 0):Play() -> never finishes, counts every second until :Stop()
-		
+  
 		Rate must be a positive value above 0.
 	>Timer Methods ->
 		:Play() -> Starts timer. Errors if starting a started timer.
