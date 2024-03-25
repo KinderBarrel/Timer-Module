@@ -1,6 +1,6 @@
 Timer Module for complex timing needs.
 
---[[ USER GUIDE:
+# USER GUIDE: #
 
 	>Making A Timer ->
 		local TimerModule = require(path.to.script)
@@ -30,5 +30,3 @@ Timer Module for complex timing needs.
 	>Timer Events ->
 		Timer.onCount:Connect(function( Time, TrueTime (for debug) ))
 		Timer.onComplete:Connect(function(  ))
-
-]]
